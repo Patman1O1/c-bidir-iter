@@ -3,15 +3,15 @@
 #-----------------------------------------------------------------------------------------------------------------------
 # Project Information
 cmake_minimum_required(VERSION 3.28.0)
-project("c-bidir-iter"
+project("bidir-iter"
         VERSION 0.1.0
         DESCRIPTION "A C implementation of a bidirectional iterator"
         LANGUAGES C
 )
-set(PROJECT_NAMESPACE c_bidir_iter CACHE STRING "The namespace the project is in")
-set(PROJECT_OUTPUT_NAME c-bidir-iter CACHE STRING "The base name that will be displayed on project output files")
-set(PROJECT_PACKAGE_NAME CBidirIter CACHE STRING "The name that will be displayed on CMake package related files")
-set(PROJECT_PRIMARY_TARGET c_bidir_iter)
+set(PROJECT_NAMESPACE bidir_iter CACHE STRING "The namespace the project is in")
+set(PROJECT_OUTPUT_NAME bidir-iter CACHE STRING "The base name that will be displayed on project output files")
+set(PROJECT_PACKAGE_NAME BidirIter CACHE STRING "The name that will be displayed on CMake package related files")
+set(PROJECT_PRIMARY_TARGET bidir_iter)
 
 # CMake Information
 cmake_file_api(
