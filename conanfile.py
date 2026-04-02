@@ -3,8 +3,8 @@ from conan.tools.cmake import CMake, CMakeToolchain, CMakeDeps, cmake_layout
 from conan.tools.scm import Git
 import os
 
-class CBidirIterFile(ConanFile):
-    name = "c_bidir_iter"
+class BidirIterFile(ConanFile):
+    name = "bidir_iter"
     version = "0.1.0"
     author = "Patman1O1"
     description = "A C implementation of a bidirectional iterator"
