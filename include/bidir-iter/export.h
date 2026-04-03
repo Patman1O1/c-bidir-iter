@@ -5,11 +5,11 @@
 extern "C" {
 #endif // #ifdef __cplusplus
 
-#ifndef C_BIDIR_ITER_STATIC_DEFINE
-#  include <c_bidir_iter/export_shared.h>
+#ifndef BIDIR_ITER_STATIC_DEFINE
+#  include <bidir-iter/export_shared.h>
 #else
-#  include <c_bidir_iter/export_static.h>
-#endif // #ifndef C_BIDIR_ITER_STATIC_DEFINE
+#  include <bidir-iter/export_static.h>
+#endif // #ifndef BIDIR_ITER_STATIC_DEFINE
 
 #ifdef __cplusplus
 }
